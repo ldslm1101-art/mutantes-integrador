@@ -7,7 +7,17 @@
 Este proyecto es una solución técnica al desafío de MercadoLibre para reclutar mutantes. Consiste en una **API REST** capaz de detectar secuencias genéticas mutantes dentro de una cadena de ADN, gestionando altas cargas de tráfico y almacenando estadísticas.
 
 ---
+## ☁️ Acceso al Deploy (Nube)
 
+El proyecto se encuentra desplegado en **Render** y listo para ser probado.
+
+* 🔗 **URL Base de la API:**
+  `https://mutantes-integrador.onrender.com`
+
+* 📄 **Swagger UI (Documentación Interactiva):**
+  `https://mutantes-integrador.onrender.com/swagger-ui/index.html`
+  *(Utilizar este enlace para probar los endpoints visualmente).*
+---
 ## 📋 Contexto del Desafío
 
 Magneto quiere reclutar la mayor cantidad de mutantes para luchar contra los X-Men.
