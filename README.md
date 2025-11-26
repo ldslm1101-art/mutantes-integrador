@@ -136,6 +136,15 @@ El proyecto cuenta con tests automáticos que validan la lógica de negocio y as
 ```
 
 * **Reporte**: La cobertura actual es del 97%
+## 📐 Diseño y Arquitectura
+
+Aquí se detalla el diseño de la solución:
+
+### Diagrama de Clases
+![Arquitectura](./screenshots/Diagrama-De-Clases.png)
+
+### Diagrama de Secuencia (Análisis de ADN)
+![Secuencia](./screenshots/Diagrama-De-Secuencia.png)
 
 **ALUMNO: Lautaro Montenegro**.
 
