@@ -1,17 +1,33 @@
 package com.mercadolibre.mutantes.servicio;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@Data
-@AllArgsConstructor
 public class EstadisticasDto {
-    @JsonProperty("count_mutant_dna")
+
     private long countMutantDna;
+    private long countHumanDna;
+    private double ratio;
+
+    public EstadisticasDto(long countMutantDna, long countHumanDna, double ratio) {
+        this.countMutantDna = countMutantDna;
+        this.countHumanDna = countHumanDna;
+        this.ratio = ratio;
+    }
+
+
+
+    @JsonProperty("count_mutant_dna")
+    public long getCountMutantDna() {
+        return countMutantDna;
+    }
 
     @JsonProperty("count_human_dna")
-    private long countHumanDna;
+    public long getCountHumanDna() {
+        return countHumanDna;
+    }
 
-    private double ratio;
+    @JsonProperty("ratio")
+    public double getRatio() {
+        return ratio;
+    }
 }

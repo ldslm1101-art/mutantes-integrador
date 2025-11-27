@@ -16,6 +16,6 @@ public class AdnEntidad {
     private Long id;
 
     @Column(unique = true)
-    private String adnSerializado;
+    private String adnHash;
     private boolean esMutante;
 }

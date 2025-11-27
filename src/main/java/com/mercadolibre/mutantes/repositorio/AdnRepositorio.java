@@ -7,7 +7,7 @@ import java.util.Optional;
 
 @Repository
 public interface AdnRepositorio extends JpaRepository<AdnEntidad, Long>{
-    Optional<AdnEntidad>findByAdnSerializado(String adnSerializado);
+    Optional<AdnEntidad>findByAdnHash(String adnHash);
 
     long countByEsMutanteTrue();
     long countByEsMutanteFalse();
